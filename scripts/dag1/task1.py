@@ -1,7 +1,5 @@
 import time
 import requests
-import yaml
-from config.global_config import *
 import datetime as datetime
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker

@@ -31,10 +31,10 @@ session_local = SessionLocal()
 # # читаем список городов
 # with open(r'config\list_cities.yaml') as file:
 #     list_cities = yaml.load(file, Loader=yaml.FullLoader)
-list_cities = ["- 51.7727,55.0988",
-               "- 59.9386,30.3141",
-               "- 56.8519,60.6122",
-               "- 55.0415,82.9346"]
+list_cities = ["51.7727,55.0988",
+               "59.9386,30.3141",
+               "56.8519,60.6122",
+               "55.0415,82.9346"]
 
 # получаем данные
 weather = []

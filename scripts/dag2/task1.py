@@ -41,6 +41,8 @@ class Weather(Base):
     cloudiness = Column(Integer, nullable=False)
     create_time = Column(TIMESTAMP, nullable=False, index=True)
 
+API_KEY = 'dcdc9a5e10f14ba092d141240243004'
+URL = f'http://api.weatherapi.com/v1/current.json?key='
 SQLALCHEMY_DATABASE_URI = f"postgresql://{str(v_user)}:{str(v_password)}@{str(v_host)}:{str(v_port)}/{str(v_dbname)}"
 
 

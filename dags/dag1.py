@@ -20,7 +20,7 @@ task1 = BashOperator(
 
 task2 = BashOperator(
     task_id='task2',
-    bash_command='python3 /airflow/scripts/dag1/task2.py',
+    bash_command='python3 /airflow/scripts/dag1/task3.py',
     dag=dag)
 
 task1 >> task2
